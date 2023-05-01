@@ -80,29 +80,18 @@
 }
 @media screen and (max-width: 560px) {
     #bottom3{
-        height:800px;
+        overflow: auto;
         padding-bottom: 20px ;
         margin-bottom: 5px;
     } 
     
-.container .navitem{
-    display: flex;
-}
+@media screen and (max-width: 360px) {
+    #bottom3{
+        overflow: auto;
+        padding-bottom: 20px ;
+        margin-bottom: 5px;
+    } 
 
-
-.container .navitem ul{
-     
-    display: flex;
-    width: 45px;
-    
-}
-
-.container .navitem ul li{
-    color: red;
-    list-style-type: none;
-    margin: 10px;
-    cursor: pointer;   
-}
 
 }
 .container{
