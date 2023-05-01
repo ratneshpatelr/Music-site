@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    background-color: black;
+    min-height: 58px;
+}
+
+.container .navitem{
+    display: flex;
+}
+
+.container .navitem img{
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 40%;
+}
+
+.container .navitem ul{
+    color: white;
+    display: flex;
+    width: 45px;
+    
+}
+
+.container .navitem ul li{
+    list-style-type: none;
+    margin: 20px;
+    cursor: pointer;
+    
+}
+
+
+.songcontainer{
+min-height: 72vh;
+background-color: black;
+color: white;
+font-family: 'VarelaRound';
+display: flex;
+width: 80%;
+margin: 23px auto;
+border-radius: 12px;
+padding:30px;
+background-image: url('bg.jpg');
+    
+}
+.songlist{
+}
+.songitem{
+    height: 40px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:34px;
+
+}
+.songitem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.songlistplay{
+    margin: 20px;
+}
+
+.songlistplay i{
+    cursor: pointer;
+}
+.bottom{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    bottom: 0;
+    flex-direction: column;
+}
+#playvar{
+    margin: 20px;
+    width: 80%;
+    cursor: pointer;
+}
+.icons{
+    color: white;
+    cursor: pointer;
+}
+@media screen and (max-width: 700px)
+{
+    #playvar{
+        width: 500px;
+    }
+    body{
+        background-color: turquoise;
+    }
+}
+
+@media screen and (max-width: 560px)
+{
+    body{
+        background-color: brown;
+    }
+    #playvar{
+        width: 250px;
+    }
+    .bottom{
+        height: 70px;
+        padding-bottom: 20px;
+
+    }
+    .playgif{
+        margin-bottom: 10px;
+    }
+    #mastersongname{
+        margin-left: 10px;
+    }
+}
+
+.playgif{
+    position: absolute;
+    left: 22vh;
+    color: white;
+}
+.playgif img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+
+    
+}
