@@ -55,6 +55,7 @@
 
 @media screen and (max-width: 360px) {
     #bottom3{
+        height:600px
         padding-bottom: 20px ;
         margin-bottom: 5px;
     } 
@@ -66,6 +67,7 @@
 }
 @media screen and (max-width: 560px) {
     #bottom3{
+        height:600px;
         padding-bottom: 20px ;
         margin-bottom: 5px;
     } 
