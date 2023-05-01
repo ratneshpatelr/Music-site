@@ -112,6 +112,7 @@
 }
 
 .container .navitem ul li{
+    display: flex;
     color: aliceblue;
     list-style-type: none;
     margin: 20px;
