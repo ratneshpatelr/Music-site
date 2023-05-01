@@ -42,11 +42,12 @@
 }
 
 #bottom3{
+    padding-left: 12px;
     padding: 8px;
     padding-bottom:12px; 
     font-display: space-between;
     background-color: goldenrod;
-    height: 800px;
+    height: 700px;
     color: aliceblue;
     justify-content: space-between;
     
@@ -105,14 +106,16 @@
 
 
 .container .navitem ul{
-     
+    margin: 20px; 
     display: flex;
     width: 45px;
     
 }
 
 .container .navitem ul li{
+    
     display: flex;
+    flex-direction: row;
     color: aliceblue;
     list-style-type: none;
     margin: 20px;
