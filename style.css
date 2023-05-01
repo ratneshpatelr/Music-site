@@ -46,7 +46,7 @@
     padding-bottom:12px; 
     font-display: space-between;
     background-color: goldenrod;
-    height: 600px;
+    height: 800px;
     color: aliceblue;
     justify-content: space-between;
     
@@ -59,6 +59,19 @@
         padding-bottom: 20px ;
         margin-bottom: 5px;
     } 
+    
+.container .navitem{
+    display: flex;
+}
+
+
+.container .navitem ul{
+     
+    display: flex;
+    width: 45px;
+    
+}
+
 .container .navitem ul li{
     color: red;
     list-style-type: none;
@@ -67,10 +80,23 @@
 }
 @media screen and (max-width: 560px) {
     #bottom3{
-        height:600px;
+        height:800px;
         padding-bottom: 20px ;
         margin-bottom: 5px;
     } 
+    
+.container .navitem{
+    display: flex;
+}
+
+
+.container .navitem ul{
+     
+    display: flex;
+    width: 45px;
+    
+}
+
 .container .navitem ul li{
     color: red;
     list-style-type: none;
