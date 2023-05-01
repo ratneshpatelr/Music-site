@@ -43,6 +43,7 @@
 
 #bottom3{
     padding: 8px;
+    padding-bottom:12px; 
     font-display: space-between;
     background-color: goldenrod;
     height: 400px;
@@ -51,6 +52,31 @@
     
 }
 
+
+@media screen and (max-width: 360px) {
+    #bottom3{
+        padding-bottom: 20px ;
+        margin-bottom: 5px;
+    } 
+.container .navitem ul li{
+    color: red;
+    list-style-type: none;
+    margin: 10px;
+    cursor: pointer;   
+}
+@media screen and (max-width: 560px) {
+    #bottom3{
+        padding-bottom: 20px ;
+        margin-bottom: 5px;
+    } 
+.container .navitem ul li{
+    color: red;
+    list-style-type: none;
+    margin: 10px;
+    cursor: pointer;   
+}
+
+}
 .container{
      background-color: black;
     min-height: 58px;
